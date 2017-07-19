@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "WebLinks",
+  "description": "This extension shows all available links on a website",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+	"http://*/",
+	"http://*/*",
+    "https://*/*",
+    "https://www.google.com/*",
+    "http://www.google.com/*"
+  ]
+}
